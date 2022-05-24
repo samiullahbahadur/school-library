@@ -22,6 +22,6 @@
 
 ## Author
 
-- GitHub: [@bushra](https://github.com/samiullahbahadur)
-- Twitter: [@bushra](https://twitter.com/Samiull88496331)
-- LinkedIn: [@bushra](https://www.linkedin.com/in/samiullah-bahadur/)
+- GitHub: [@Bahadur](https://github.com/samiullahbahadur)
+- Twitter: [@Bahadur](https://twitter.com/Samiull88496331)
+- LinkedIn: [@Bahadur](https://www.linkedin.com/in/samiullah-bahadur/)
