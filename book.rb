@@ -4,4 +4,6 @@ class Book
         @title=title
         @author=author
     end
+    def add_rental (data, person)
+        Rental.new(data,person, self)
 end
