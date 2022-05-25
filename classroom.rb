@@ -1,16 +1,17 @@
 class Classroom
-attr_accessor :label
+  attr_accessor :label
 
-def initialize(lable)
+  def initialize(lable)
+    @label = label
+    @students = []
+  end
 
-    @label=label
-    @students=[]
-end
-def add_student(student)
+  def add_student(student)
     @students << student
-    student.classroom=self
-end
- def remove_student(student)
+    student.classroom = self
+  end
+
+  def remove_student(student)
     @students.delete(student)
- end
+  end
 end
