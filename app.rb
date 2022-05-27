@@ -24,4 +24,12 @@ class App
           puts (@store[:books].map{ |b| "Title: \" #{b.title}\" , Author: \" #{b.author}\""})
         end
       end
+
+      def list_all_people
+        if(@store[:person].length.zero?)
+            puts "There is no people"
+        else
+            puts(@store[:persons].map { |p| "[#{p.class}] - id: #{p.id} | #{p.name} | #{p.age} years old" })
+          end
+        end
 end
