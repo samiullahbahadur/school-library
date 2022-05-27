@@ -116,5 +116,9 @@ class App
       send(@methods[chosen_option.to_sym].to_sym)
     end
   end
+  def run
+    puts "Welcome. Tell me what should I do for you.\n"
+    home
+  end
   
 end
