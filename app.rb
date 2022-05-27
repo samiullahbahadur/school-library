@@ -59,4 +59,25 @@ class App
             @store[:books] << the_book
             puts "Save"
         end
+        def create_a_rental
+            if @store[:books].length.zero? || @store[:person].length.zero?
+                puts "Please make sure you have at least one person and one book in the databases"
+                else
+                    puts "choose a book"
+                    @store[:books].each.with_index {|b,i| puts "#{i} \" #{b.title}\" #{b.author}\""}
+                    chosen_option = gets.chomp.to_i
+                    chosen_book = @store[:books][chosen_option]
+                    puts 'Choose a person:'
+                 @store[:persons].each.with_index { |p, i| puts "#{i}) [#{p.class}] Name: #{p.name}, id: #{p.id},  Age: #{p.age}" }
+                 chosen_option = gets.chomp.to_i
+                chosen_person = @store[:persons][chosen_option]
+                puts 'Pick a date:'
+                date = gets.chomp
+          
+                require './rental'
+                new_rental = Rental.new(date, chosen_person, chosen_book)
+                @store[:rentals] << new_rental
+              end
+            end
+
 end
