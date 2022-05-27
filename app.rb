@@ -142,4 +142,11 @@ class App
     Student.new(nil, age, name, parent_permission: permission)
   end
   
+  def create_teacher(name, age)
+    print 'Specialization: '
+    specialization = gets.chomp
+
+    require './teacher'
+    Teacher.new(specialization, age, name)
+  end
 end
