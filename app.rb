@@ -79,5 +79,21 @@ class App
                 @store[:rentals] << new_rental
               end
             end
+            
+  def list_rental_by_person_id
+    # list persons
+    print 'Enter the id of the person: '
+    input_id = gets.chomp
+
+    person = @store[:persons].find { |p| p.id == input_id }
+
+    # list the rentals
+    if person.nil?
+      puts "Couldn't find any person with such id!"
+    else
+      rentals = person.rentals
+      rentals.each { |r| puts "Data: #{r.date} - Book: \"#{r.book.title}\" by \"#{r.book.author}\"" }
+    end
+  end
 
 end
