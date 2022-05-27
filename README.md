@@ -32,7 +32,7 @@ rspec spec/operation_spec.rb
 rspec spec/group_spec.rb 
 ```
 
-## Author
+## Author1
 
 - GitHub: [@Bahadur](https://github.com/samiullahbahadur)
 - Twitter: [@Bahadur](https://twitter.com/Samiull88496331)
