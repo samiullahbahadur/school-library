@@ -133,5 +133,13 @@ class App
 
     chosen_option
   end
+  def create_student(name, age)
+    print 'Has parent permission? (Y/n) '
+    permission_input = gets.chomp.downcase
+    permission = permission_input != 'n'
+
+    require './student'
+    Student.new(nil, age, name, parent_permission: permission)
+  end
   
 end
