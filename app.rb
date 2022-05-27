@@ -33,6 +33,21 @@ class App
           end
         end
 
+        def create_person
+            puts "What type of person to make?"
+            options={
+                '1': 'Student',
+                '2': 'Teacher'
+            }
+            chosen_option=choose_from(options)
+            print "Name"
+            name=gets.chomp()
+            pring "Age"
+            age=gets.chomp()
+            the_person=chosen_option=='1'? create_student(name, age): create_teacher(name,age)
+            @store[:person] << the_person
+            puts "Saved"
+        end
         def create_book
             puts "Please add details of the book"
             print 'Title'
