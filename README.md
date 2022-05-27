@@ -17,11 +17,24 @@
 ### Install
 1. ```gem install```
 
+## Run
 
+Make sure `main.rb` has executable permisions. If so, simply run `./main.rb`.
+## Run Tests
 
+```
+rspec spec/user_spec.rb 
+```
+```
+rspec spec/operation_spec.rb 
+```
+```
+rspec spec/group_spec.rb 
+```
 
 ## Author1
 
 - GitHub: [@Bahadur](https://github.com/samiullahbahadur)
 - Twitter: [@Bahadur](https://twitter.com/Samiull88496331)
 - LinkedIn: [@Bahadur](https://www.linkedin.com/in/samiullah-bahadur/)
+

@@ -1,8 +1,11 @@
 require './person'
 require './classroom'
+
 class Student < Person
-  def initialize(classroom)
-    super(age, name, parent_permission)
+  attr_reader :classroom
+
+  def initialize(classroom, age, name, parent_permission)
+    super()
     self.classroom = classroom
   end
 
@@ -10,9 +13,10 @@ class Student < Person
     "¯\(ツ)/¯"
   end
 
-  def  classroom =(new_classroom)
-    if new_classroom.is_a(Classroom)
-      @classroom.remove_student(self) unless @classroom.nil? ||@classroom==new_classroom
+  def classroom=(new_classroom)
+    if new_classroom.is_a?(Classroom)
+      @classroom.remove_student(self) unless @classroom.nil? || @classroom == new_classroom
+
       @classroom = new_classroom
       @classroom.add_student(self) unless @classroom.students.include?(self)
     else

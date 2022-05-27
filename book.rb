@@ -2,10 +2,14 @@ require './rental'
 
 class Book
   attr_accessor :title, :author, :rentals
-    def initialize(title, author)
-        @title=title
-        @author=author
-    end
-    def add_rental (data, person)
-        Rental.new(data,person, self)
+
+  def initialize(title, author)
+    @title = title
+    @author = author
+    @rentals = []
+  end
+
+  def add_rental(date, person)
+    Rental.new(date, person, self)
+  end
 end
