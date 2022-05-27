@@ -34,7 +34,7 @@ rspec spec/group_spec.rb
 
 ## Author
 
-- GitHub: [@bushra](https://github.com/bushmusi)
-- Twitter: [@bushra](https://twitter.com/bushera_mestofa)
-- LinkedIn: [@bushra](https://www.linkedin.com/in/bushra-mustofa)
+- GitHub: [@Bahadur](https://github.com/samiullahbahadur)
+- Twitter: [@Bahadur](https://twitter.com/Samiull88496331)
+- LinkedIn: [@Bahadur](https://www.linkedin.com/in/samiullah-bahadur/)
 
