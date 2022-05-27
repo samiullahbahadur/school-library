@@ -96,4 +96,25 @@ class App
     end
   end
 
+  def home
+    options = {
+      '1': 'List all books',
+      '2': 'List all people',
+      '3': 'Create a person',
+      '4': 'Create a book',
+      '5': 'Create a rental',
+      '6': 'List all rentals for a given person id',
+      '7': 'Exit'
+    }
+    loop do
+      puts "\nHere is the task list:"
+
+      chosen_option = choose_from(options)
+
+      puts "Ok! You want to #{options[chosen_option.to_sym].downcase}.\n\n"
+
+      send(@methods[chosen_option.to_sym].to_sym)
+    end
+  end
+  
 end
