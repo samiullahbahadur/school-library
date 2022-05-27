@@ -8,7 +8,7 @@
 - Ruby
 
 ## Getting Started
-1. ```git clone https://github.com/samiullahbahadur/school-library```
+1. ```git clone https://github.com/bushmusi/school-library```
 2. ```cd school-library```
 ### Prerequests
 1. [Git](https://git-scm.com/downloads).
@@ -17,11 +17,24 @@
 ### Install
 1. ```gem install```
 
+## Run
 
+Make sure `main.rb` has executable permisions. If so, simply run `./main.rb`.
+## Run Tests
 
+```
+rspec spec/user_spec.rb 
+```
+```
+rspec spec/operation_spec.rb 
+```
+```
+rspec spec/group_spec.rb 
+```
 
 ## Author
 
-- GitHub: [@Bahadur](https://github.com/samiullahbahadur)
-- Twitter: [@Bahadur](https://twitter.com/Samiull88496331)
-- LinkedIn: [@Bahadur](https://www.linkedin.com/in/samiullah-bahadur/)
+- GitHub: [@bushra](https://github.com/bushmusi)
+- Twitter: [@bushra](https://twitter.com/bushera_mestofa)
+- LinkedIn: [@bushra](https://www.linkedin.com/in/bushra-mustofa)
+
