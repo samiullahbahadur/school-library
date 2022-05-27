@@ -120,5 +120,18 @@ class App
     puts "Welcome. Tell me what should I do for you.\n"
     home
   end
+  private
+
+  def choose_from(options)
+    options.each { |key, value| puts "#{key}) #{value}" }
+
+    chosen_option = '-10000'
+    until options.key?(chosen_option.to_sym)
+      print 'Your choice: '
+      chosen_option = gets.chomp
+    end
+
+    chosen_option
+  end
   
 end
