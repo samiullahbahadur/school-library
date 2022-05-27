@@ -20,7 +20,7 @@
 
 
 
-## Author
+## Author1
 
 - GitHub: [@Bahadur](https://github.com/samiullahbahadur)
 - Twitter: [@Bahadur](https://twitter.com/Samiull88496331)
