@@ -15,5 +15,13 @@ class App
             '6': 'list_rental_by_person_id',
             '7': 'exit' 
         }
-
+    end
+    def list_all_books
+        if @store[:books].length.zero?
+          puts 'There is no book!'
+        else
+          #puts(@store[:books].map { |b| "Title: \"#{b.title}\", Author: \"#{b.author}\"" })
+          puts (@store[:books].map{ |b| "Title: \" #{b.title}\" , Author: \" #{b.author}\""})
+        end
+      end
 end
