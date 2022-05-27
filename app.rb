@@ -20,7 +20,7 @@ class App
         if @store[:books].length.zero?
           puts 'There is no book!'
         else
-          #puts(@store[:books].map { |b| "Title: \"#{b.title}\", Author: \"#{b.author}\"" })
+         
           puts (@store[:books].map{ |b| "Title: \" #{b.title}\" , Author: \" #{b.author}\""})
         end
       end
@@ -31,5 +31,17 @@ class App
         else
             puts(@store[:persons].map { |p| "[#{p.class}] - id: #{p.id} | #{p.name} | #{p.age} years old" })
           end
+        end
+
+        def create_book
+            puts "Please add details of the book"
+            print 'Title'
+            title =gets.chomp()
+            pring "Author"
+            author= gets.chomp()
+            require './book'
+            the_book=Book.new(title, author)
+            @store[:books] << the_book
+            puts "Save"
         end
 end
