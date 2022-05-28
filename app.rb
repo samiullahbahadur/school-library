@@ -151,7 +151,7 @@ class App
     permission_input = gets.chomp.downcase
     permission = permission_input != 'n'
 
-    require './student'
+    #require './student'
     Student.new(nil, age, name, parent_permission: permission)
   end
 
