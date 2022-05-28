@@ -9,8 +9,8 @@ class Person < Nameable
   def initialize(age, name = 'unknown', parent_permission = true)
     super()
     @id = Random.rand(0..1000)
-    @name = name
-    @age = age
+    #@name = name
+    #ruby @age = age
     @parent_permission = parent_permission
     @rentals = []
     @id = SecureRandom.uuid
