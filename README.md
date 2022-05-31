@@ -2,7 +2,7 @@
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-> This project is for creating a tool to record what books are in the library and who borrows them. It also add a feature of adding a book, student, and teacher.
+In this project, we have used SOLID principles of OOP, YAGNI, KISS, and DRY rules and Ruby style guide to refactor our School Library App.
 
 ## Built With
 - Ruby
@@ -38,3 +38,24 @@ rspec spec/group_spec.rb
 - Twitter: [@Bahadur](https://twitter.com/Samiull88496331)
 - LinkedIn: [@Bahadur](https://www.linkedin.com/in/samiullah-bahadur/)
 
+## Author2
+**Nicholas Mutale**
+
+- GitHub: [@mutalenic](https://github.com/Mutalenic)
+- Twitter: [@nicomutale](https://twitter.com/nicomutale)
+- LinkedIn: [@nicomutale](https://www.linkedin.com/in/nicomutale/)
+
+## Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/Mutalenic/school_library/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+
+## Acknowledgments
+
+- Microverse 
