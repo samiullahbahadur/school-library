@@ -3,7 +3,9 @@ class Books
     attr_accessor :books
 
     def initialize
-        @books = []
+        @store={
+        books=[]
+        }
     end
 
     def create_book

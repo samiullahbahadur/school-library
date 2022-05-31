@@ -1,10 +1,9 @@
-require './books'
+
 
 class App
   def initialize
     @store = {
       persons: [],
-      @books = Books.new
       rentals: []
     }
     @methods = {
@@ -54,6 +53,9 @@ class App
     puts 'Saved.'
   end
 
+        require './books'
+        @store = Books.new()
+        
   
   def create_a_rental
     if @store[:books].length.zero? || @store[:persons].length.zero?
