@@ -4,7 +4,7 @@ class Books
 
     def initialize
         @store={
-        books=[]
+        books:[]
         }
     end
 

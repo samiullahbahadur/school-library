@@ -1,4 +1,4 @@
-
+require './books'
 
 class App
   def initialize
@@ -52,11 +52,26 @@ class App
     @store[:persons] << the_person
     puts 'Saved.'
   end
+=begin 
+  def create_book
+    puts 'Please add details of the book'
 
-        require './books'
-        @store = Books.new()
-        
-  
+    print 'Title: '
+    title = gets.chomp
+    print 'Author: '
+    author = gets.chomp
+
+    require './book'
+    the_book = Book.new(title, author)
+
+    @store[:books] << the_book
+    puts 'Saved.'
+  end  
+=end
+
+ 
+    @store[:books]=Book.new()
+
   def create_a_rental
     if @store[:books].length.zero? || @store[:persons].length.zero?
       puts 'Please make sure you have at least one person and one book in the database'
