@@ -1,8 +1,10 @@
+require './books'
+
 class App
   def initialize
     @store = {
       persons: [],
-      books: [],
+      @books = Books.new
       rentals: []
     }
     @methods = {
