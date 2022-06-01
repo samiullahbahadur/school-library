@@ -14,7 +14,7 @@ And all of this in a beautiful and well-organized way!
 - Ruby
 
 ## Getting Started
-1. ```git clone https://github.com/bushmusi/school-library```
+1. ```git clone https://github.com/samiullahbahadur/school-library```
 2. ```cd school-library```
 ### Prerequests
 1. [Git](https://git-scm.com/downloads).
