@@ -40,9 +40,9 @@ rspec spec/group_spec.rb
 
 ## Author
 
-- GitHub: [@bushra](https://github.com/bushmusi)
-- Twitter: [@bushra](https://twitter.com/bushera_mestofa)
-- LinkedIn: [@bushra](https://www.linkedin.com/in/bushra-mustofa)
+- GitHub: [@bahdur](https://github.com/bushmusi)
+- Twitter: [@bahdur](https://twitter.com/bushera_mestofa)
+- LinkedIn: [@bahdur](https://www.linkedin.com/in/bushra-mustofa)
 
 
 - GitHub: [@mutalenic](https://github.com/Mutalenic)
