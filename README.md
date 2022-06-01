@@ -35,8 +35,8 @@ rspec spec/group_spec.rb
 ## Author
 
 - GitHub: [@Bahadur](https://github.com/samiullahbahadur)
-- Twitter: [@bushra](https://twitter.com/Samiull88496331)
-- LinkedIn: [@bushra](https://www.linkedin.com/in/samiullah-bahadur/)
+- Twitter: [@Bahadur](https://twitter.com/Samiull88496331)
+- LinkedIn: [@Bahadur](https://www.linkedin.com/in/samiullah-bahadur/)
 
 
 - GitHub: [@mutalenic](https://github.com/Mutalenic)
