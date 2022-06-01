@@ -1,5 +1,3 @@
-require './books'
-
 class App
   def initialize
     @store = {
@@ -72,6 +70,24 @@ class App
  
     @store[:books]=Book.new()
 
+<<<<<<< HEAD
+=======
+  def create_book
+    puts 'Please add details of the book'
+
+    print 'Title: '
+    title = gets.chomp
+    print 'Author: '
+    author = gets.chomp
+
+    require './book'
+    the_book = Book.new(title, author)
+
+    @store[:books] << the_book
+    puts 'Saved.'
+  end
+
+>>>>>>> 22e05495023e10f05a31a05b26e500ec400f57a0
   def create_a_rental
     if @store[:books].length.zero? || @store[:persons].length.zero?
       puts 'Please make sure you have at least one person and one book in the database'

@@ -38,3 +38,7 @@ rspec spec/group_spec.rb
 - Twitter: [@bushra](https://twitter.com/bushera_mestofa)
 - LinkedIn: [@bushra](https://www.linkedin.com/in/bushra-mustofa)
 
+
+- GitHub: [@mutalenic](https://github.com/Mutalenic)
+- Twitter: [@nicomutale](https://twitter.com/nicomutale)
+- LinkedIn: [@nicomutale](https://www.linkedin.com/in/nicomutale/)
