@@ -1,26 +1,31 @@
 require './book'
+require './data'
+require 'json'
+
 class Books
-    attr_accessor :books
+  attr_accessor :books
 
-    def initialize
-        @store={
-        books:[]
-        }
-    end
+  def initialize
+    # @books = []
+    @books = read_books
+  end
 
-    def create_book
-        puts 'Please add details of the book'
-    
-        print 'Title: '
-        title = gets.chomp
-        print 'Author: '
-        author = gets.chomp
-    
-        require './book'
-        the_book = Book.new(title, author)
-    
-        @store[:books] << the_book
-        puts 'Saved.'
-      end
-    
+  def booklist
+    puts 'No book found!' if @books.empty?
+    @books.each { |book| puts "Title: #{book.title}, Author: #{book.author}" }
+  end
+
+  def create_book
+    print 'book title: '
+    title = gets.chomp
+
+    print 'book author: '
+    author = gets.chomp
+
+    book = Book.new(title, author)
+    @books.push(book)
+    write_books(@books)
+
+    puts 'Book created successfully'
+  end
 end
